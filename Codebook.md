@@ -1,13 +1,11 @@
 # Data Dictionary
-
-__Subject__
+__Subject__
 
 	Subject identifier
 	
 		1..30 Unique ID for each subject tested
 
-		
-__Activity__
+		__Activity__
 
 	Activity done for the particular aggregate record.
 	
@@ -18,90 +16,23 @@ __Activity__
 		Walking Downstairs
 		Walking Upstairs
 
-		
-__tbodyacc.mean.x__
+	__tbodyacc.mean.x__
 	
 	Mean of time-domain signal of body acceleration - x component of triaxial signal. Aggregate mean over all samples for the subject and activity.
-	
-__tbodyacc.mean.y__
+	__tbodyacc.mean.y__
 	
 	Mean of time-domain signal of body acceleration - y component of triaxial signal. Aggregate mean over all samples for the subject and activity.
-	
-__tbodyacc.mean.z__
+	__tbodyacc.mean.z__
 
 	Mean of time-domain signal of body acceleration - z component of triaxial signal. Aggregate mean over all samples for the subject and activity.
-	
-__tbodyacc.std.x__
+	__tbodyacc.std.x__
 
 	Standard deviation of time-domain signal of body acceleration - x component of triaxial signal. Aggregate mean over all samples for the subject and activity.
-	
-__tbodyacc.std.y__
+	__tbodyacc.std.y__
 
 	Standard deviation of time-domain signal of body acceleration - y component of triaxial signal. Aggregate mean over all samples for the subject and activity.
 	
-
-__tbodyacc.std.z__
+__tbodyacc.std.z__
 
 	Standard deviation of time-domain signal of body acceleration - z component of triaxial signal. Aggregate mean over all samples for the subject and activity.
-	
-
-__tgravityacc.mean.x__
-__tgravityacc.mean.y__
-__tgravityacc.mean.z__
-__tgravityacc.std.x__
-__tgravityacc.std.y__
-__tgravityacc.std.z__
-__tbodyaccjerk.mean.x__
-__tbodyaccjerk.mean.y__
-__tbodyaccjerk.mean.z__
-__tbodyaccjerk.std.x__
-__tbodyaccjerk.std.y__
-__tbodyaccjerk.std.z__
-__tbodygyro.mean.x__
-__tbodygyro.mean.y__
-__tbodygyro.mean.z__
-__tbodygyro.std.x__
-__tbodygyro.std.y__
-__tbodygyro.std.z__
-__tbodygyrojerk.mean.x__
-__tbodygyrojerk.mean.y__
-__tbodygyrojerk.mean.z__
-__tbodygyrojerk.std.x__
-__tbodygyrojerk.std.y__
-__tbodygyrojerk.std.z__
-__tbodyaccmag.mean__
-__tbodyaccmag.std__
-__tgravityaccmag.mean__
-__tgravityaccmag.std__
-__tbodyaccjerkmag.mean__
-__tbodyaccjerkmag.std__
-__tbodygyromag.mean__
-__tbodygyromag.std__
-__tbodygyrojerkmag.mean__
-__tbodygyrojerkmag.std__
-__fbodyacc.mean.x__
-__fbodyacc.mean.y__
-__fbodyacc.mean.z__
-__fbodyacc.std.x__
-__fbodyacc.std.y__
-__fbodyacc.std.z__
-__fbodyaccjerk.mean.x__
-__fbodyaccjerk.mean.y__
-__fbodyaccjerk.mean.z__
-__fbodyaccjerk.std.x__
-__fbodyaccjerk.std.y__
-__fbodyaccjerk.std.z__
-__fbodygyro.mean.x__
-__fbodygyro.mean.y__
-__fbodygyro.mean.z__
-__fbodygyro.std.x__
-__fbodygyro.std.y__
-__fbodygyro.std.z__
-__fbodyaccmag.mean__
-__fbodyaccmag.std__
-__fbodybodyaccjerkmag.mean__
-__fbodybodyaccjerkmag.std__
-__fbodybodygyromag.mean__
-__fbodybodygyromag.std__
-__fbodybodygyrojerkmag.mean__
-__fbodybodygyrojerkmag.std__
+	__tgravityacc.mean.x__	Mean of time-domain gravitational acceleration - x component of triaxial signal. Aggregate mean over all samples for the subject and activity.__tgravityacc.mean.y__	Mean of time-domain gravitational acceleration - y component of triaxial signal. Aggregate mean over all samples for the subject and activity.__tgravityacc.mean.z__	Mean of time-domain gravitational acceleration - z component of triaxial signal. Aggregate mean over all samples for the subject and activity.__tgravityacc.std.x__	Standard deviation  of time-domain gravitational acceleration - x component of triaxial signal. Aggregate mean over all samples for the subject and activity.__tgravityacc.std.y__	Standard deviation  of time-domain gravitational acceleration - y component of triaxial signal. Aggregate mean over all samples for the subject and activity.__tgravityacc.std.z__	Standard deviation  of time-domain gravitational acceleration - z component of triaxial signal. Aggregate mean over all samples for the subject and activity.__tbodyaccjerk.mean.x__	Mean of time-domain body acceleration - x component of triaxial signal. Aggregate mean over all samples for the subject and activity.__tbodyaccjerk.mean.y__	Mean of time-domain body acceleration - y component of triaxial signal. Aggregate mean over all samples for the subject and activity.__tbodyaccjerk.mean.z__	Mean of time-domain body acceleration - z component of triaxial signal. Aggregate mean over all samples for the subject and activity.__tbodyaccjerk.std.x__	Standard deviation  of time-domain body acceleration - x component of triaxial signal. Aggregate mean over all samples for the subject and activity.__tbodyaccjerk.std.y__	Standard deviation  of time-domain body acceleration - y component of triaxial signal. Aggregate mean over all samples for the subject and activity.__tbodyaccjerk.std.z__	Standard deviation  of time-domain body acceleration - z component of triaxial signal. Aggregate mean over all samples for the subject and activity.__tbodygyro.mean.x__	Mean of time-domain body gyroscope measurement - x component of triaxial signal. Aggregate mean over all samples for the subject and activity.__tbodygyro.mean.y__	Mean of time-domain body gyroscope measurement - y component of triaxial signal. Aggregate mean over all samples for the subject and activity.__tbodygyro.mean.z__	Mean of time-domain body gyroscope measurement - z component of triaxial signal. Aggregate mean over all samples for the subject and activity.__tbodygyro.std.x__	Standard deviation  of time-domain body gyroscope measurement - x component of triaxial signal. Aggregate mean over all samples for the subject and activity.__tbodygyro.std.y__	Standard deviation  of time-domain body gyroscope measurement - y component of triaxial signal. Aggregate mean over all samples for the subject and activity.__tbodygyro.std.z__	Standard deviation  of time-domain body gyroscope measurement - z component of triaxial signal. Aggregate mean over all samples for the subject and activity.__tbodygyrojerk.mean.x__	Mean of time-domain body gyroscope jerk - x component of triaxial signal. Aggregate mean over all samples for the subject and activity.__tbodygyrojerk.mean.y__	Mean of time-domain body gyroscope jerk - y component of triaxial signal. Aggregate mean over all samples for the subject and activity.__tbodygyrojerk.mean.z__	Mean of time-domain body gyroscope jerk - z component of triaxial signal. Aggregate mean over all samples for the subject and activity.__tbodygyrojerk.std.x__	Standard deviation  of time-domain body gyroscope jerk - x component of triaxial signal. Aggregate mean over all samples for the subject and activity.__tbodygyrojerk.std.y__	Standard deviation  of time-domain body gyroscope jerk - y component of triaxial signal. Aggregate mean over all samples for the subject and activity.__tbodygyrojerk.std.z__	Standard deviation  of time-domain body gyroscope jerk - z component of triaxial signal. Aggregate mean over all samples for the subject and activity.__tbodyaccmag.mean__	Mean of time-domain body acceleration magnitude. Aggregate mean over all samples for the subject and activity.__tbodyaccmag.std__	Standard deviation  of time-domain body acceleration magnitude. Aggregate mean over all samples for the subject and activity.__tgravityaccmag.mean__	Mean of time-domain gravitational acceleration magnitude. Aggregate mean over all samples for the subject and activity.__tgravityaccmag.std__	Standard deviation  of time-domain gravitational acceleration jerk magnitude. Aggregate mean over all samples for the subject and activity.__tbodyaccjerkmag.mean__	Mean of time-domain body acceleration jerk magnitude. Aggregate mean over all samples for the subject and activity.__tbodyaccjerkmag.std__	Standard deviation  of time-domain body gyro magnitude. Aggregate mean over all samples for the subject and activity.__tbodygyromag.mean__	Mean of time-domain body gyro magnitude. Aggregate mean over all samples for the subject and activity.__tbodygyromag.std__	Standard deviation  of time-domain body gyro magnitude. Aggregate mean over all samples for the subject and activity.__tbodygyrojerkmag.mean__	Mean of time-domain body gyro jerk magnitude. Aggregate mean over all samples for the subject and activity.__tbodygyrojerkmag.std__	Standard deviation  of time-domain body gyro jerk magnitude. Aggregate mean over all samples for the subject and activity.__fbodyacc.mean.x__	Mean of frequency-domain body acceleration - x component of triaxial signal. Aggregate mean over all samples for the subject and activity.__fbodyacc.mean.y__	Mean of frequency-domain body acceleration - y component of triaxial signal. Aggregate mean over all samples for the subject and activity.__fbodyacc.mean.z__	Mean of frequency-domain body acceleration - z component of triaxial signal. Aggregate mean over all samples for the subject and activity.__fbodyacc.std.x__	Standard deviation  of frequency-domain body acceleration - x component of triaxial signal. Aggregate mean over all samples for the subject and activity.__fbodyacc.std.y__	Standard deviation  of frequency-domain body acceleration - y component of triaxial signal. Aggregate mean over all samples for the subject and activity.__fbodyacc.std.z__	Standard deviation  of frequency-domain body acceleration jerk - z component of triaxial signal. Aggregate mean over all samples for the subject and activity.__fbodyaccjerk.mean.x__	Mean of frequency-domain body acceleration jerk - x component of triaxial signal. Aggregate mean over all samples for the subject and activity.__fbodyaccjerk.mean.y__	Mean of frequency-domain body acceleration jerk - y component of triaxial signal. Aggregate mean over all samples for the subject and activity.__fbodyaccjerk.mean.z__	Mean of frequency-domain body acceleration jerk - z component of triaxial signal. Aggregate mean over all samples for the subject and activity.__fbodyaccjerk.std.x__	Standard deviation  of frequency-domain body acceleration jerk - x component of triaxial signal. Aggregate mean over all samples for the subject and activity.__fbodyaccjerk.std.y__	Standard deviation  of frequency-domain body acceleration jerk - y component of triaxial signal. Aggregate mean over all samples for the subject and activity.__fbodyaccjerk.std.z__	Standard deviation  of frequency-domain body acceleration jerk - z component of triaxial signal. Aggregate mean over all samples for the subject and activity.__fbodygyro.mean.x__	Mean of frequency-domain body gyroscope - x component of triaxial signal. Aggregate mean over all samples for the subject and activity.__fbodygyro.mean.y__	Mean of frequency-domain body gyroscope - y component of triaxial signal. Aggregate mean over all samples for the subject and activity.__fbodygyro.mean.z__	Mean of frequency-domain body gyroscope - z component of triaxial signal. Aggregate mean over all samples for the subject and activity.__fbodygyro.std.x__	Standard deviation  of frequency-domain body gyroscope - x component of triaxial signal. Aggregate mean over all samples for the subject and activity.__fbodygyro.std.y__	Standard deviation  of frequency-domain body gyroscope - y component of triaxial signal. Aggregate mean over all samples for the subject and activity.__fbodygyro.std.z__	Standard deviation  of frequency-domain body gyroscope - z component of triaxial signal. Aggregate mean over all samples for the subject and activity.__fbodyaccmag.mean__	Mean of frequency-domain body acceleration magnitude. Aggregate mean over all samples for the subject and activity.__fbodyaccmag.std__	Standard deviation  of frequency-domain body acceleration magnitude. Aggregate mean over all samples for the subject and activity.__fbodybodyaccjerkmag.mean__	Mean of frequency-domain body acceleration jerk magnitude. Aggregate mean over all samples for the subject and activity.__fbodybodyaccjerkmag.std__	Standard deviation  of frequency-domain body acceleration jerk magnitude. Aggregate mean over all samples for the subject and activity.__fbodybodygyromag.mean__	Mean of frequency-domain body gyro magnitude. Aggregate mean over all samples for the subject and activity.__fbodybodygyromag.std__	Standard deviation  of frequency-domain body gyro magnitude. Aggregate mean over all samples for the subject and activity.__fbodybodygyrojerkmag.mean__	Mean of frequency-domain body gyro jerk magnitude. Aggregate mean over all samples for the subject and activity.__fbodybodygyrojerkmag.std__	Standard deviation  of frequency-domain body gyro jerk magnitude. Aggregate mean over all samples for the subject and activity.
