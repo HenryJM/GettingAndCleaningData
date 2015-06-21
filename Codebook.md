@@ -20,15 +20,31 @@ __Activity__
 
 		
 __tbodyacc.mean.x__
-	mean of time-domain signal of body acceleration - x component of triaxial signal. Aggregate mean over all samples for the subject and activity.
+	
+	Mean of time-domain signal of body acceleration - x component of triaxial signal. Aggregate mean over all samples for the subject and activity.
 	
 __tbodyacc.mean.y__
-	mean of time-domain signal of body acceleration - y component of triaxial signal. Aggregate mean over all samples for the subject and activity.
+	
+	Mean of time-domain signal of body acceleration - y component of triaxial signal. Aggregate mean over all samples for the subject and activity.
 	
 __tbodyacc.mean.z__
+
+	Mean of time-domain signal of body acceleration - z component of triaxial signal. Aggregate mean over all samples for the subject and activity.
+	
 __tbodyacc.std.x__
+
+	Standard deviation of time-domain signal of body acceleration - x component of triaxial signal. Aggregate mean over all samples for the subject and activity.
+	
 __tbodyacc.std.y__
+
+	Standard deviation of time-domain signal of body acceleration - y component of triaxial signal. Aggregate mean over all samples for the subject and activity.
+	
+
 __tbodyacc.std.z__
+
+	Standard deviation of time-domain signal of body acceleration - z component of triaxial signal. Aggregate mean over all samples for the subject and activity.
+	
+
 __tgravityacc.mean.x__
 __tgravityacc.mean.y__
 __tgravityacc.mean.z__
