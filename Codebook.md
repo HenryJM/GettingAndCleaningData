@@ -1,5 +1,6 @@
 # Data Dictionary
-__Subject__
+## Note on Units
+All data was normalized over [-1, 1] before aggregation into mean. __Subject__
 
 	Subject identifier
 	
